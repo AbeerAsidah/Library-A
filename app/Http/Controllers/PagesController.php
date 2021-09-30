@@ -18,4 +18,13 @@ class PagesController extends Controller
       public function home(){
         return view('home');
     }
+
+     public function contact(){
+        return view('contact');
+      }
+
+
+      public function teacher(){
+        return view('teacher');
+      }
 }
