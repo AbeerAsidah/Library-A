@@ -29,9 +29,12 @@
                 <div class="col-lg-7">
                     <div class="text-left mb-4">
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
-                        <h1>Innovative Way To Learn</h1>
+                        <h1>Innovative Way To Connect With The World</h1>
                     </div>
-                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
+                    <p>Book4U website is committed to facilitating intercultural understanding through the circulation of knowledge and creativity.
+
+   We are a unique liaison and believe in the power of books to connect people.  Just as books, bearing insight and inspiration, are passed between friends, we strive to provide our readers with the tools to build an interesting and more harmonious world .Book4U carries both rare and antiquarian books on culture as well as titles on contemporary art and literature  .  In addition to being interested in many of novels and stories .  It is our priority to offer a diverse range of books and novels in a beautiful way and easy to download so as to be accessible for all audiences.
+</p>
                     <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                 </div>
             </div>
@@ -46,8 +49,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <div class="mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Courses</h5>
-                        <h1 class="text-white">30% Off For New Students</h1>
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Need Any Books</h5>
+                         <h1 class="text-white">30% Off For New Students</h1>
                     </div>
                     <p class="text-white">Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
                         ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
@@ -57,7 +60,7 @@
                         <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Etsea et sit dolor amet ipsum</li>
                         <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Diam dolor diam elitripsum vero.</li>
                     </ul>
-                </div>
+                </div> 
                 <div class="col-lg-5">
                     <div class="card border-0">
                         <div class="card-header bg-light text-center p-4">
@@ -73,10 +76,10 @@
                                 </div>
                                 <div class="form-group">
                                     <select class="custom-select border-0 px-4" style="height: 47px;">
-                                        <option selected>Select a course</option>
-                                        <option value="1">Course 1</option>
-                                        <option value="2">Course 1</option>
-                                        <option value="3">Course 1</option>
+                                        <option selected>Choose a book</option>
+                                        <option value="1">Book 1</option>
+                                        <option value="2">Book 1</option>
+                                        <option value="3">Book 1</option>
                                     </select>
                                 </div>
                                 <div>
@@ -97,7 +100,7 @@
         <div class="container py-5">
             <div class="text-center mb-5">
                 <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Testimonial</h5>
-                <h1>What Say Our Students</h1>
+                <h1>What Say Our Visitors</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">

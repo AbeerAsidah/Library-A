@@ -32,7 +32,7 @@
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
                 <a href="" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">E</span>COURSES</h1>
+                    <h1 class="m-0"><span class="text-primary">Book</span>4<span class="text-primary">U</span></h1>
                 </a>
             </div>
             <div class="col-lg-3 text-right">
@@ -72,7 +72,7 @@
         <div class="row border-top px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
                 <a class="d-flex align-items-center justify-content-between bg-secondary w-100 text-decoration-none" data-toggle="collapse" href="#navbar-vertical" style="height: 67px; padding: 0 30px;">
-                    <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Subjects</h5>
+                    <h5 class="text-primary m-0"><i class="fa fa-book-open mr-2"></i>Categories</h5>
                     <i class="fa fa-angle-down text-primary"></i>
                 </a>
                 <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 9;">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <a href="" class="nav-item nav-link">Apps Design</a>
-                        <a href="" class="nav-item nav-link">Marketing</a>
+                        <a href="" class="nav-item nav-link">Suggest Adding A Book</a>
                         <a href="" class="nav-item nav-link">Research</a>
                         <a href="" class="nav-item nav-link">SEO</a>
                     </div>
@@ -106,9 +106,9 @@
                             <a href="/about" class="nav-item nav-link">About</a>
                             <!-- <a href="/" class="nav-item nav-link">Courses</a> -->
                             <a href="/Course" class="nav-item nav-link">Courses</a>
-                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <a href="/teacher" class="nav-item nav-link">Teachers</a>
                            
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="/;contact" class="nav-item nav-link">Contact</a>
                         </div>
                         <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
                     </div>
@@ -118,8 +118,12 @@
     </div>
     <!-- Navbar End -->
 
+
+
 <!-- content -->
 @yield('body')
+
+
 
 
 
@@ -141,11 +145,11 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-5">
-                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Courses</h5>
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Our Books</h5>
                         <div class="d-flex flex-column justify-content-start">
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Adding A Book</a>
                             <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
                             <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
                         </div>
