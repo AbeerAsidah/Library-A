@@ -1,4 +1,5 @@
 @extends('master')
+@section('title','Authers page')
 @section('body')
 
     <!-- Header Start -->

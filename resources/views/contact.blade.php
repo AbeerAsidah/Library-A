@@ -1,5 +1,6 @@
 
 @extends('master')
+@section('title','contact page')
 @section('body')
 
     <!-- Header Start -->

@@ -2,6 +2,7 @@
   
             
 @extends('master')
+@section('title','Books page')
 @section('body')
         
 
