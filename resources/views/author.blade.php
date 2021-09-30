@@ -1,16 +1,16 @@
 @extends('master')
-@section('title','Authers page')
+@section('title','Authors page')
 @section('body')
 
     <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Teachers</h3>
+                <h3 class="display-4 text-white text-uppercase">authors</h3>
                 <div class="d-inline-flex text-white">
                     <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Teachers</p>
+                    <p class="m-0 text-uppercase">Authors</p>
                 </div>
             </div>
         </div>
@@ -138,6 +138,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3 text-center team mb-4">
                     <div class="team-item rounded overflow-hidden mb-2">
                         <div class="team-img position-relative">

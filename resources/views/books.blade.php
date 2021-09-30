@@ -1,21 +1,18 @@
-
-  
-            
 @extends('master')
 @section('title','Books page')
 @section('body')
-        
+
 
 
     <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-                <h3 class="display-4 text-white text-uppercase">Courses</h3>
+                <h3 class="display-4 text-white text-uppercase">books</h3>
                 <div class="d-inline-flex text-white">
                     <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                    <p class="m-0 text-uppercase">Courses</p>
+                    <p class="m-0 text-uppercase">books</p>
                 </div>
             </div>
         </div>
@@ -113,8 +110,8 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
-                <h1>Our Popular Courses</h1>
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Books</h5>
+                <h1>Our Popular Books</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
@@ -229,7 +226,4 @@
         </div>
     </div>
     <!-- Courses End -->
-
-    
-                   
 @endsection
