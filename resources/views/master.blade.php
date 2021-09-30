@@ -105,10 +105,10 @@
                             <a href="/" class="nav-item nav-link active">Home</a>
                             <a href="/about" class="nav-item nav-link">About</a>
                             <!-- <a href="/" class="nav-item nav-link">Courses</a> -->
-                            <a href="/Course" class="nav-item nav-link">Courses</a>
+                            <a href="/course" class="nav-item nav-link">Courses</a>
                             <a href="/teacher" class="nav-item nav-link">Teachers</a>
                            
-                            <a href="/;contact" class="nav-item nav-link">Contact</a>
+                            <a href="/contact" class="nav-item nav-link">Contact</a>
                         </div>
                         <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
                     </div>
