@@ -1,6 +1,7 @@
 
 
 @extends('master')
+@section('title','about page')
 @section('body')
     <!-- Header Start -->
     <div class="container-fluid page-header" style="margin-bottom: 90px;">

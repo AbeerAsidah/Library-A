@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ECOURSES - Online Courses HTML Template</title>
+    <title>@yield('title')</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -40,7 +40,7 @@
                     <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
                     <div class="text-left">
                         <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
-                        <small>123 Street, New York, USA</small>
+                        <small>AL Shalaan , Damascus</small>
                     </div>
                 </div>
             </div>
@@ -104,10 +104,10 @@
                         <div class="navbar-nav py-0">
                             <a href="/" class="nav-item nav-link active">Home</a>
                             <a href="/about" class="nav-item nav-link">About</a>
-                            <!-- <a href="/" class="nav-item nav-link">Courses</a> -->
-                            <a href="/course" class="nav-item nav-link">Courses</a>
-                            <a href="/teacher" class="nav-item nav-link">Teachers</a>
-                           
+                        
+                            <a href="/books" class="nav-item nav-link">Books</a>
+                            <a href="/author" class="nav-item nav-link">Authors</a>
+
                             <a href="/contact" class="nav-item nav-link">Contact</a>
                         </div>
                         <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
@@ -134,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-5">
                         <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Get In Touch</h5>
-                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>AL Shalaan , Damascus</p>
                         <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
                         <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
                         <div class="d-flex justify-content-start mt-4">

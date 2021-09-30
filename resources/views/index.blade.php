@@ -1,4 +1,5 @@
 @extends('master')
+@section('title','home page')
 @section('body')
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 mb-5">
