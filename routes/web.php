@@ -27,3 +27,4 @@ Route::get('/author', 'PagesController@author');
 
 Route::get('/Categories/Create', 'CategoriesController@Create');
 Route::post('/Categories/store', 'CategoriesController@store');
+Route::get('/Categories', 'CategoriesController@index');
