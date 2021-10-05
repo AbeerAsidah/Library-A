@@ -39,7 +39,7 @@
                            Categories
                           </a>
                           <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Add Category</a>
+                            <a class="dropdown-item" href="/Categories/Create">Add Category</a>
                             <a class="dropdown-item" href="#">All Categories </a>
                             <!-- <a class="dropdown-item" href="#">Link 3</a> -->
                           </div>
