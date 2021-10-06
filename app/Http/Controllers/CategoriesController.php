@@ -23,6 +23,13 @@ class CategoriesController extends Controller
 
         return back();
 
-           // return $request->imag-path  ;
+           // return $request->name ;
+    }
+    public function index()
+    {
+        $categories =Category::all();
+
+    return view ('categories.index',compact('categories'));
+  
     }
 }
