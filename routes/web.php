@@ -31,3 +31,11 @@ Route::get('/Categories', 'CategoriesController@index');
 Route::get('/Categories/delete/{id}', 'CategoriesController@delete');
 Route::get('/Categories/edit/{id}', 'CategoriesController@edit');
 Route::post('/Categories/update/{id}', 'CategoriesController@update');
+// books
+
+Route::get('/books/Create', ' BooksController@Create');
+Route::post('/books/store', ' BooksController@store');
+Route::get('/books', 'BooksController@index');
+Route::get('/books/delete/{id}', 'BooksController@delete');
+Route::get('/books/edit/{id}', 'BooksController@edit');
+Route::post('/books/update/{id}', 'BooksController@update');
