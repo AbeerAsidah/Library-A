@@ -8,7 +8,7 @@
     <h1 class="text-center">  Edit Category page</h1>
 
 
-		    <form action="/Categories/store"  method="POST">
+		    <form action="/Categories/update/{{ $category->id }}"  method="POST">
 		    	@csrf
 		    
 				  <div class="form-group">
