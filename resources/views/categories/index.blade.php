@@ -20,8 +20,8 @@
       <tr>
         <td>{{ $category->id }}</td>
         <td>{{ $category ->name }}</td>
-        <td><button type="button" class="btn btn-success">Edit</button></td>
-        <button type="button" class="btn btn-danger">Delet</button>
+        <td><button type="button" class="btn btn-success">Edit</button>
+         <a  href="/Categories/delete/{{ $category->id }} "  class="btn btn-danger">Delete</a> </td>
 
       </tr>
      @endforeach
