@@ -10,6 +10,7 @@
 
 		    <form action="/Categories/store"  method="POST">
 		    	@csrf
+		    
 				  <div class="form-group">
 				    <label for="name">Name:</label>
 				    <input type="text" class="form-control" placeholder="Enter Name" id="name"  name="name">

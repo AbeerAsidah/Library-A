@@ -17,7 +17,7 @@ class CategoriesController extends Controller
 
       public function store ( Request $request){
      
-         $new_category= new Category;
+       $new_category= new Category;
        $new_category->name = $request->name;
         $new_category->save();
 
