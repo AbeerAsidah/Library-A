@@ -29,3 +29,4 @@ Route::get('/Categories/Create', 'CategoriesController@Create');
 Route::post('/Categories/store', 'CategoriesController@store');
 Route::get('/Categories', 'CategoriesController@index');
 Route::get('/Categories/delete/{id}', 'CategoriesController@delete');
+Route::get('/Categories/edit/{id}', 'CategoriesController@edit');

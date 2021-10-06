@@ -39,11 +39,11 @@ class CategoriesController extends Controller
 
     public function delete ($id){
         $category= Category::where ('id',$id)->first();
-
-        // if (condition) {
-        //     // code...
-        // }
          $category->delete();
          return back();
+    }
+     public function edit($id){
+        $category = Category::find('$id');
+         return view('categories.edit',compact('category'));
     }
 }

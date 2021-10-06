@@ -5,7 +5,7 @@
 <div class="container">
     
 
-    <h1 class="text-center">  Create Category page</h1>
+    <h1 class="text-center">  Edit Category page</h1>
 
 
 		    <form action="/Categories/store"  method="POST">
@@ -13,10 +13,11 @@
 		    
 				  <div class="form-group">
 				    <label for="name">Name:</label>
-				    <input type="text" class="form-control" placeholder="Enter Name" id="name"  name="name">
+				    <input type="text" class="form-control" placeholder="Enter Name"   id="name"  name="name" value="{{ $category->name }}" >
 				  </div>
-			
-				  <button type="submit" class="btn btn-primary">Add</button>
+				
+				 
+				  <button type="submit" class="btn btn-primary">Update</button>
 		</form>
 
 
