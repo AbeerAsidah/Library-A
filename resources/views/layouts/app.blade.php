@@ -35,6 +35,9 @@
                     <ul class="navbar-nav mr-auto">
  
 
+                        <!--   Categories -->
+
+
                      <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                            Categories
@@ -42,9 +45,9 @@
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="/Categories/Create">Add Category</a>
                             <a class="dropdown-item" href="/Categories">All Categories </a>
-                            <!-- <a class="dropdown-item" href="#">Link 3</a> -->
                           </div>
                         </li>
+
 
 
                         <!-- authors -->
@@ -61,6 +64,19 @@
 
 
 
+
+
+                            <!-- books -->     
+
+                     <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                           Books
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/books/Create">Add Books</a>
+                            <a class="dropdown-item" href="/books">All Books </a>
+                          </div>
+                        </li> 
 
                     </ul>
 
