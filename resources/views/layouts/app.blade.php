@@ -33,6 +33,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+ 
 
                      <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -44,6 +45,22 @@
                             <!-- <a class="dropdown-item" href="#">Link 3</a> -->
                           </div>
                         </li>
+
+
+                        <!-- authors -->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                           Authors
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/authors/Create">Add Author</a>
+                            <a class="dropdown-item" href="/authors">All  Authors</a>
+                            <!-- <a class="dropdown-item" href="#">Link 3</a> -->
+                          </div>
+                        </li>
+
+
+
 
                     </ul>
 
