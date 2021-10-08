@@ -78,6 +78,22 @@
                           </div>
                         </li> 
 
+
+
+
+
+                        <!-- BB -->
+                            <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                           Books
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="/bbs/create">Add Book</a>
+                            <a class="dropdown-item" href="/bbs">All Books </a>
+                          </div>
+                        </li> 
+
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->

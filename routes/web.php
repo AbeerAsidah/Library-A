@@ -46,9 +46,21 @@ Route::post('/authors/update/{id}', 'AuthorsController@update');
 
 // books
 
-Route::get('/books/Create', ' BooksController@Create');
-Route::post('/books/store', ' BooksController@store');
+Route::get('/books/Create', 'BooksController@Create');
+Route::post('/books/store', 'BooksController@store');
 Route::get('/books', 'BooksController@index');
 Route::get('/books/delete/{id}', 'BooksController@delete');
 Route::get('/books/edit/{id}', 'BooksController@edit');
 Route::post('/books/update/{id}', 'BooksController@update');
+
+
+ 
+
+//   BbController Routes
+
+ Route::get('/bbs/create', ' BbController@create');
+Route::post('/bbs/store', ' BbController@store');
+Route::get('/bbs', ' BbController@index');
+Route::get('/bbs/delete/{id}', ' BbController@delete');
+Route::get('/bbs/edit/{id}', ' BbController@edit');
+Route::post('/bbs/update/{id}', ' BbController@update');

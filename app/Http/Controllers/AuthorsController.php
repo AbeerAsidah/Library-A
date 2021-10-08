@@ -19,14 +19,14 @@ class AuthorsController extends Controller
        $new_author->name  =$request->name;
        $new_author->email =$request->email;
        
-       //processing image 
-       $image = $request->file('imag_path');
-       $name =time ().'.'.$image->getClientOriginalExtension();
-       $destinationPath = public_path('/upload');
-       $image->move($destinationPath, $name);
+       // //processing image 
+       // $image = $request->file('imag_path');
+       // $name =time ().'.'.$image->getClientOriginalExtension();
+       // $destinationPath = public_path('/upload');
+       // $image->move($destinationPath, $name);
 
-       $new_author->imag_path =  $name;
-
+       // $new_author->imag_path =  $name;
+      $new_author->imag_path = 'test';
        $new_author->save();
         return back();
 

@@ -19,6 +19,7 @@ class CreateBooksTable extends Migration
             $table->text('description');
             $table->bigInteger('categories_id');
             $table->bigInteger('authors_id');
+             $table->string('imag_path');
             $table->bigInteger('publishing_houses_id');
             $table->bigInteger('languages_id');
             $table->boolean('is_new');

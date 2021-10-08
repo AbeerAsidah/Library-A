@@ -13,7 +13,7 @@
 		    
 				  <div class="form-group">
 				    <label for="name">Name:</label>
-				    <input type="text" class="form-control" placeholder="Enter Name"   id="name"  name="name" value="{{ $category->name }}" >
+				    <input type="text" class="form-control" placeholder="Enter Name"   id="name"  name="name" value="{{ $book->name }}" >
 				  </div>
 				
 				 
