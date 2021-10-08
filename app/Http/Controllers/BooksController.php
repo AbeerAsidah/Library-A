@@ -5,17 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Book ;
-class BooksControllerer extends Controller
-{
-    <?php
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Book;
-class BooksController extends Controller
-{
+class  BooksController extends Controller
+{ 
+  
     
     public function create (){
         return view ('books.create');
