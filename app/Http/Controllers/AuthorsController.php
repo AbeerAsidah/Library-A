@@ -47,11 +47,11 @@ class AuthorsController extends Controller
          return back();
     }
      public function edit($id){
-        $author = Author::find('$id');
+        $author = Author::find($id);
          return view('authors.edit',compact('author'));
     }
       public function update($id ,Request $request){
-         $author = author::find('$id');
+         $author = author::find($id);
         $author->name = $request->name;
         $author->save();
         return redirect('/authors'); 

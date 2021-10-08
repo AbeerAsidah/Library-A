@@ -43,13 +43,13 @@ class CategoriesController extends Controller
          return back();
     }
      public function edit($id){
-        $category = Category::find('$id');
+        $category = Category::find($id);
          return view('categories.edit',compact('category'));
     }
-      public function update($id ,Request $request){
-         $category = Category::find('$id');
+      public function update($id,Request $request){
+         $category = Category::find($id);
         $category->name = $request->name;
         $category->save();
-        return redirect('/categories'); 
+        return redirect('/Categories'); 
     }
 }

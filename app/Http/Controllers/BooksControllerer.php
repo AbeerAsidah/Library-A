@@ -4,6 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Book ;
+class BooksControllerer extends Controller
+{
+    <?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\Book;
 class BooksController extends Controller
 {
@@ -42,13 +51,16 @@ class BooksController extends Controller
          return back();
     }
      public function edit($id){
-        $book= Book::find('$id');
+        $book= Book::find($id);
          return view('books.edit',compact('books'));
     }
       public function update($id ,Request $request){
-         $book= Book::find('$id');
+         $book= Book::find($id);
         $book->name = $request->name;
         $book->save();
         return redirect('/books'); 
     }
+}
+
+
 }
