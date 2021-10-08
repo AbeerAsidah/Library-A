@@ -58,7 +58,9 @@
                         <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
                         <h1>Innovative Way To Learn</h1>
                     </div>
-                    <p>Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet</p>
+                    <p>Book4U website is committed to facilitating intercultural understanding through the circulation of knowledge and creativity.
+
+   We are a unique liaison and believe in the power of books to connect people.  Just as books, bearing insight and inspiration, are passed between friends, we strive to provide our readers with the tools to build an interesting and more harmonious world .Book4U carries both rare and antiquarian books on culture as well as titles on contemporary art and literature  .  In addition to being interested in many of novels and stories .  It is our priority to offer a diverse range of books and novels in a beautiful way and easy to download so as to be accessible for all audiences.</p>
                     <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
                 </div>
             </div>

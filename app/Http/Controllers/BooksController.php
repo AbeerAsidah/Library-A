@@ -24,16 +24,13 @@ class BooksController extends Controller
                $new_book->name = $request->name;
                 $new_book->save();
            }
+        return back();}
 
-        return back();
 
-    }
     public function index()
     {
         $books =Book::all();
-
     return view ('books.index',compact('books'));
-  
     }
 
     public function delete ($id){
@@ -41,12 +38,14 @@ class BooksController extends Controller
          $book->delete();
          return back();
     }
+
      public function edit($id){
-        $book= Book::find('$id');
+        $book= Book::find($id);
          return view('books.edit',compact('books'));
     }
+    
       public function update($id ,Request $request){
-         $book= Book::find('$id');
+         $book= Book::find($id);
         $book->name = $request->name;
         $book->save();
         return redirect('/books'); 
