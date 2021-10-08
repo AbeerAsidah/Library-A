@@ -14,8 +14,8 @@ class PagesController extends Controller
      public function about(){
         return view('about');
     }
-      public function books(){
-        return view('books');
+      public function bookss(){
+        return view('bookss');
     }
       public function home(){
         return view('home');

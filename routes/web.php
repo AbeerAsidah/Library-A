@@ -21,7 +21,7 @@ Route::get('/', 'PagesController@index');
 Route::get('/about','PagesController@about');
 
 Route::get('/home','PagesController@home');
-Route::get('/books','PagesController@books');
+Route::get('/bookss','PagesController@bookss');
 Route::get('/contact','PagesController@contact');
 Route::get('/author', 'PagesController@author');
 

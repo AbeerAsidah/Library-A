@@ -105,7 +105,7 @@
                             <a href="/" class="nav-item nav-link active">Home</a>
                             <a href="/about" class="nav-item nav-link">About</a>
                             <!-- <a href="/" class="nav-item nav-link">Courses</a> -->
-                            <a href="/books" class="nav-item nav-link">Books</a>
+                            <a href="/bookss" class="nav-item nav-link">Books</a>
                             <a href="/author" class="nav-item nav-link">Authors</a>
                            
                             <a href="/contact" class="nav-item nav-link">Contact</a>
