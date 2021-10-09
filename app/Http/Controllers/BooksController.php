@@ -27,12 +27,12 @@ class  BooksController extends Controller
                $new_book->category_id = $request->category_id;
 
                //           //processing image 
-               // $image = $request->file('image');
-               // $name =time ().'.'.$image->getClientOriginalExtension();
-               // $destinationPath = public_path('/upload');
-               // $image->move($destinationPath, $name);
-                 // $new_book->image =  $name;
-                $new_book->image = 'test';
+               $image = $request->file('image');
+               $name =time ().'.'.$image->getClientOriginalExtension();
+               $destinationPath = public_path('/upload');
+               $image->move($destinationPath, $name);
+                 $new_book->image =  $name;
+                // $new_book->image = 'test';
                 $new_book->save();
                 return back();}
 

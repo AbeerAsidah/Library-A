@@ -23,6 +23,7 @@
         <td>{{ $book ->name }}</td>
         <td>{{ $book ->description }}</td>
 
+
         <td>
           <a  href="/books/edit/{{ $book->id }} " class="btn btn-success">Edit</a>
          <a  href="/books/delete/{{ $book->id }} "  class="btn btn-danger">Delete</a> 

@@ -8,7 +8,7 @@
     <h1 class="text-center">  Create Books page</h1>
 
 
-		    <form action="/books/store"  method="POST">
+		    <form action="/books/store"  method="POST"  enctype="multipart/form-data">
 		    	@csrf
 		    
 				  <div class="form-group">

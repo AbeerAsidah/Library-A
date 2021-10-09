@@ -81,8 +81,7 @@
 
 
 
-
-                        <!-- BB -->
+<!--
                             <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                            Books
@@ -91,8 +90,8 @@
                             <a class="dropdown-item" href="/bbs/create">Add Book</a>
                             <a class="dropdown-item" href="/bbs">All Books </a>
                           </div>
-                        </li> 
-
+                        </li>  
+ -->
 
                     </ul>
 
