@@ -56,11 +56,11 @@ Route::post('/books/update/{id}', 'BooksController@update');
 
  
 
-//   BbController Routes
+// //   BbController Routes
 
- Route::get('/bbs/create', ' BbController@create');
-Route::post('/bbs/store', ' BbController@store');
-Route::get('/bbs', ' BbController@index');
-Route::get('/bbs/delete/{id}', ' BbController@delete');
-Route::get('/bbs/edit/{id}', ' BbController@edit');
-Route::post('/bbs/update/{id}', ' BbController@update');
+//  Route::get('/bbs/create', ' BbController@create');
+// Route::post('/bbs/store', ' BbController@store');
+// Route::get('/bbs', ' BbController@index');
+// Route::get('/bbs/delete/{id}', ' BbController@delete');h
+// Route::get('/bbs/edit/{id}', ' BbController@edit');
+// Route::post('/bbs/update/{id}', ' BbController@update');

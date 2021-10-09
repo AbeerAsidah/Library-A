@@ -13,8 +13,6 @@
         <th>ID</th>
         <th>Name</th>
         <th> Description</th>
-        <th>Category</th>
-        <th>Is_New</th>
         <th>Control</th>
       </tr>
     </thead>
@@ -22,10 +20,8 @@
       @foreach( $books as $book )
       <tr>
         <td>{{ $book->id }}</td>
-        <td>{{ $book->name }}</td>
-        <td>{{ $book->description }}</td>
-        <td>{{ $book->category->name }}</td>
-         <td>{{ $book->is_new }}</td>
+        <td>{{ $book ->name }}</td>
+        <td>{{ $book ->description }}</td>
 
         <td>
           <a  href="/books/edit/{{ $book->id }} " class="btn btn-success">Edit</a>
